@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8190" started-at="2021-05-23T03:02:40Z" finished-at="2021-05-23T03:02:49Z">
+  <suite name="Default suite" duration-ms="10503" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8190" started-at="2021-05-23T03:02:40Z" finished-at="2021-05-23T03:02:49Z">
-      <class name="com.org.OrangeHrmTwitter">
-        <test-method status="PASS" signature="twitter()[pri:0, instance:com.org.OrangeHrmTwitter@475530b9]" name="twitter" duration-ms="8118" started-at="2021-05-23T03:02:40Z" finished-at="2021-05-23T03:02:49Z">
+    <test name="Default test" duration-ms="10503" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
+      <class name="com.org.OrangeHrmDirectory">
+        <test-method status="PASS" signature="subscription()[pri:0, instance:com.org.OrangeHrmDirectory@475530b9]" name="subscription" duration-ms="10472" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- twitter -->
-      </class> <!-- com.org.OrangeHrmTwitter -->
+        </test-method> <!-- subscription -->
+      </class> <!-- com.org.OrangeHrmDirectory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
