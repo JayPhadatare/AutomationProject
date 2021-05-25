@@ -27,6 +27,8 @@ public class AdminHrm {
 		WebElement e3 = dr.findElement(By.xpath("//a[text()='Work Shifts']"));
 		Actions ac= new Actions(dr);
 		ac.moveToElement(e1).moveToElement(e2).moveToElement(e3).click().build().perform();
+		WebElement e4 = dr.findElement(By.xpath("//input[@name='chkSelectAll']"));
+		e4.click();
 		
 		
 	}
