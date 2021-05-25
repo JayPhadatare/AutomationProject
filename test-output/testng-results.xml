@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10503" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
+  <suite name="Default suite" duration-ms="11481" started-at="2021-05-24T03:02:12Z" finished-at="2021-05-24T03:02:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10503" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
-      <class name="com.org.OrangeHrmDirectory">
-        <test-method status="PASS" signature="subscription()[pri:0, instance:com.org.OrangeHrmDirectory@475530b9]" name="subscription" duration-ms="10472" started-at="2021-05-24T02:51:07Z" finished-at="2021-05-24T02:51:17Z">
+    <test name="Default test" duration-ms="11481" started-at="2021-05-24T03:02:12Z" finished-at="2021-05-24T03:02:23Z">
+      <class name="com.org.HrmLoginPage">
+        <test-method status="PASS" signature="logindetails()[pri:0, instance:com.org.HrmLoginPage@61832929]" name="logindetails" duration-ms="10662" started-at="2021-05-24T03:02:12Z" finished-at="2021-05-24T03:02:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subscription -->
-      </class> <!-- com.org.OrangeHrmDirectory -->
+        </test-method> <!-- logindetails -->
+        <test-method status="PASS" signature="logindetailsdelete()[pri:0, instance:com.org.HrmLoginPage@61832929]" name="logindetailsdelete" is-config="true" duration-ms="767" started-at="2021-05-24T03:02:23Z" finished-at="2021-05-24T03:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindetailsdelete -->
+      </class> <!-- com.org.HrmLoginPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

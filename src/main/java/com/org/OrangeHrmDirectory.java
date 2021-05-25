@@ -22,6 +22,7 @@ public class OrangeHrmDirectory {
 		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("odis");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
+		
 		}
 
 }
