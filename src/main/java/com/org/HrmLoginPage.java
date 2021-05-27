@@ -13,7 +13,7 @@ public class HrmLoginPage {
 	public void logindetails() throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers/chromedriver.exe");
-		WebDriver  driver = new ChromeDriver();
+		  driver = new ChromeDriver();
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		driver.manage().window().maximize();
