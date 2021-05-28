@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10101" started-at="2021-05-25T03:00:19Z" finished-at="2021-05-25T03:00:29Z">
+  <suite name="Default suite" duration-ms="8096" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10101" started-at="2021-05-25T03:00:19Z" finished-at="2021-05-25T03:00:29Z">
-      <class name="com.org.Hrm">
-        <test-method status="PASS" signature="rama()[pri:0, instance:com.org.Hrm@475530b9]" name="rama" duration-ms="10022" started-at="2021-05-25T03:00:19Z" finished-at="2021-05-25T03:00:29Z">
+    <test name="Default test" duration-ms="8096" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
+      <class name="com.org.Table">
+        <test-method status="PASS" signature="sample2()[pri:0, instance:com.org.Table@29ee9faa]" name="sample2" duration-ms="8075" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rama -->
-      </class> <!-- com.org.Hrm -->
+        </test-method> <!-- sample2 -->
+      </class> <!-- com.org.Table -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
