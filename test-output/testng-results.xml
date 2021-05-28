@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11869" started-at="2021-05-28T02:03:01Z" finished-at="2021-05-28T02:03:13Z">
+  <suite name="Default suite" duration-ms="13722" started-at="2021-05-28T02:10:22Z" finished-at="2021-05-28T02:10:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11869" started-at="2021-05-28T02:03:01Z" finished-at="2021-05-28T02:03:13Z">
-      <class name="com.org.ProjectReport">
-        <test-method status="PASS" signature="sample1()[pri:0, instance:com.org.ProjectReport@29ee9faa]" name="sample1" duration-ms="11846" started-at="2021-05-28T02:03:01Z" finished-at="2021-05-28T02:03:13Z">
+    <test name="Default test" duration-ms="13722" started-at="2021-05-28T02:10:22Z" finished-at="2021-05-28T02:10:36Z">
+      <class name="com.org.OrangeDir">
+        <test-method status="PASS" signature="sample()[pri:0, instance:com.org.OrangeDir@29ee9faa]" name="sample" duration-ms="13699" started-at="2021-05-28T02:10:22Z" finished-at="2021-05-28T02:10:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample1 -->
-      </class> <!-- com.org.ProjectReport -->
+        </test-method> <!-- sample -->
+      </class> <!-- com.org.OrangeDir -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
