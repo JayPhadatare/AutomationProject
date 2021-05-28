@@ -2,12 +2,21 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="8096" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
     <groups>
     </groups>
     <test name="Default test" duration-ms="8096" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
       <class name="com.org.Table">
         <test-method status="PASS" signature="sample2()[pri:0, instance:com.org.Table@29ee9faa]" name="sample2" duration-ms="8075" started-at="2021-05-28T01:43:50Z" finished-at="2021-05-28T01:43:58Z">
+=======
+  <suite name="Default suite" duration-ms="15734" started-at="2021-05-24T07:45:48Z" finished-at="2021-05-24T07:46:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15734" started-at="2021-05-24T07:45:48Z" finished-at="2021-05-24T07:46:04Z">
+      <class name="com.org.OrangeHrmDirectory">
+        <test-method status="PASS" signature="subscription()[pri:0, instance:com.org.OrangeHrmDirectory@29ee9faa]" name="subscription" duration-ms="15712" started-at="2021-05-24T07:45:48Z" finished-at="2021-05-24T07:46:04Z">
+>>>>>>> d0a9b53bab5be8e6bbffcb389bd37ceb74c16509
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample2 -->
