@@ -2,34 +2,26 @@ package com.org;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-public class HrmLoginPage {
-	public  WebDriver driver;
+public class OrangeDirTest {
 	@Test
-	public void logindetails() throws InterruptedException
+	public void sample()
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers/chromedriver.exe");
-		  driver = new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
-		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		driver.findElement(By.xpath("//input[@name='txtUsername']")).sendKeys("Admin");
 		driver.findElement(By.xpath("//input[@name='txtPassword']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		driver.findElement(By.id("welcome")).click();
-		Thread.sleep(3000l);
-		driver.findElement(By.xpath("//div[@id='welcome-menu']/ul/li[3]/a")).click();
-	}
-	@AfterTest
-	public void logindetailsdelete()
-	{
-		driver.close();
-		driver.quit();
-	}
-
+		driver.findElement(By.xpath("//ul[@id='mainMenuFirstLevelUnorderedList']")).click();
+		driver.findElement(By.xpath("//input[@type='text']")).sendKeys("odis");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
 }
+}
+
+

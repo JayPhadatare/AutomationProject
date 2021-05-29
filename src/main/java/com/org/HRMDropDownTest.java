@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class HRMDropDown {
+public class HRMDropDownTest {
 	
 	@Test
 	public void LoginPageDetailsTest()
