@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8970" started-at="2021-05-31T02:44:48Z" finished-at="2021-05-31T02:44:57Z">
+  <suite name="Default suite" duration-ms="6726" started-at="2021-05-29T02:24:30Z" finished-at="2021-05-29T02:24:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8970" started-at="2021-05-31T02:44:48Z" finished-at="2021-05-31T02:44:57Z">
-      <class name="com.org.UploadFileTest">
-        <test-method status="PASS" signature="file()[pri:0, instance:com.org.UploadFileTest@29ee9faa]" name="file" duration-ms="8920" started-at="2021-05-31T02:44:48Z" finished-at="2021-05-31T02:44:57Z">
+    <test name="Default test" duration-ms="6726" started-at="2021-05-29T02:24:30Z" finished-at="2021-05-29T02:24:36Z">
+      <class name="com.org.Demo">
+        <test-method status="PASS" signature="Jay()[pri:0, instance:com.org.Demo@29ee9faa]" name="Jay" duration-ms="6707" started-at="2021-05-29T02:24:30Z" finished-at="2021-05-29T02:24:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- file -->
-      </class> <!-- com.org.UploadFileTest -->
+        </test-method> <!-- Jay -->
+      </class> <!-- com.org.Demo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
